@@ -31,6 +31,10 @@ class MyDocument extends Document {
               key={i}
             />
           ))}
+          <link
+            rel='stylesheet'
+            href='https://cdn.jsdelivr.net/npm/inter-ui@3.5.0/inter.min.css'
+          />
         </Head>
         <body>
           <Main />
