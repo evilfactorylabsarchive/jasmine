@@ -2,6 +2,8 @@
 
 evilfactory UI Components built on top baseweb
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4313596d-c15b-4570-bf97-b3c362f2f925/deploy-status)](https://app.netlify.com/sites/evilfactorylabs-jasmine/deploys)
+
 ## Technology stacks
 
 - React
