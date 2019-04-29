@@ -11,7 +11,7 @@ const Content = styled('main', {
 
   ':before, :after': {
     clear: 'both',
-    content: '',
+    content: '""',
     display: 'table'
   },
 
