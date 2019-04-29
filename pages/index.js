@@ -1,20 +1,21 @@
-import { styled } from 'styletron-react'
-import { Paragraph2, H2 } from 'baseui/typography'
-
-const Container = styled('div', {
-  padding: '2rem',
-  '@media screen and (min-width: 40em)': {
-    padding: '8rem',
-  }
-})
+import { Notification, KIND } from 'baseui/notification'
+import { Paragraph2, H2, H4 } from 'baseui/typography'
 
 export default () => (
-  <Container>
+  <>
     <H2>
-      Jasmine
+      jasmine
     </H2>
+    <Notification
+      kind={KIND.warning}
+      overrides={{ Body: { style: { width: 'auto' }} }}
+    >
+      jasmine is evilfactory UI Components built on top baseweb. Currently under heavy development
+      and not stable yet
+    </Notification>
+    <H4>TODO:</H4>
     <Paragraph2>
-      evilfactory UI Components built on top baseweb 
+      Use MDX instead for this docs.
     </Paragraph2>
-  </Container>
+  </>
 )
