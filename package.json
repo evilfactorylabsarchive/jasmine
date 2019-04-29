@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "export": "next export",
+    "build": "next build",
+    "generate": "yarn build && yarn export -o dist"
+  },
+  "dependencies": {
+    "baseui": "6.15.1",
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styletron-engine-atomic": "1.1.0",
+    "styletron-react": "4.4.6"
+  }
+}
