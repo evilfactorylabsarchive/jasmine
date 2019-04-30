@@ -40,6 +40,7 @@ yarn dev
 ```javascript
 import { JasmineTheme as Jasmine } from '@evilfactory/jasmine'
 import { ThemeProvider } from 'baseui'
+import { Provider as StyletronProvider } from 'styletron-react'
 
 class SomeRootFragment extends SomeRootComponent {
   render () {
