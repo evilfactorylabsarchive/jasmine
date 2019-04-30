@@ -9,7 +9,13 @@ const Content = styled('main', {
 
   padding: '0 1rem',
 
-  ':before, :after': {
+  ':before': {
+    clear: 'both',
+    content: '""',
+    display: 'table'
+  },
+
+  ':after': {
     clear: 'both',
     content: '""',
     display: 'table'
