@@ -1,7 +1,7 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import { Provider as StyletronProvider } from "styletron-react";
-import { ThemeProvider } from "baseui";
-import { styletron } from "../styletron";
+import Document, { Head, Main, NextScript } from 'next/document'
+import { Provider as StyletronProvider } from 'styletron-react'
+import { ThemeProvider } from 'baseui'
+import { styletron } from '../styletron'
 
 class MyDocument extends Document {
   static getInitialProps(props) {
@@ -9,9 +9,9 @@ class MyDocument extends Document {
       <StyletronProvider value={styletron}>
         <App {...props} />
       </StyletronProvider>
-    ));
-    const stylesheets = styletron.getStylesheets() || [];
-    return { ...page, stylesheets };
+    ))
+    const stylesheets = styletron.getStylesheets() || []
+    return { ...page, stylesheets }
   }
 
   render() {
@@ -20,16 +20,16 @@ class MyDocument extends Document {
         <Head>
           {this.props.stylesheets.map((sheet, i) => (
             <style
-              className="_styletron_hydrate_"
+              className='_styletron_hydrate_'
               dangerouslySetInnerHTML={{ __html: sheet.css }}
               media={sheet.attrs.media}
-              data-hydrate={sheet.attrs["data-hydrate"]}
+              data-hydrate={sheet.attrs['data-hydrate']}
               key={i}
             />
           ))}
           <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/inter-ui@3.5.0/inter.min.css"
+            rel='stylesheet'
+            href='https://cdn.jsdelivr.net/npm/inter-ui@3.5.0/inter.min.css'
           />
         </Head>
         <body>
@@ -37,8 +37,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument
