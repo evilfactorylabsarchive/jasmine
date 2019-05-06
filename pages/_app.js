@@ -1,12 +1,13 @@
 import App, { Container } from 'next/app'
 import { Provider as StyletronProvider, styled } from 'styletron-react'
 import { styletron } from '../styletron'
+import { ThemeProvider } from 'baseui'
+import Jasmine from '../themes'
 
 import Column from '../components/Grid/Column'
 import Sidebar from '../components/docs/Sidebar'
 
 const Content = styled('main', {
-
   padding: '0 1rem',
 
   ':before': {
@@ -29,18 +30,20 @@ const Content = styled('main', {
 })
 
 export default class MyApp extends App {
-  render () {
+  render() {
     const { Component, pageProps, router } = this.props
 
     return (
       <Container>
         <StyletronProvider value={styletron}>
-          <Sidebar path={router.pathname} />
-          <Content>
-            <Column size={10}>
-              <Component {...pageProps} />
-            </Column>
-          </Content>
+          <ThemeProvider theme={Jasmine}>
+            <Sidebar path={router.pathname} />
+            <Content>
+              <Column size={10}>
+                <Component {...pageProps} />
+              </Column>
+            </Content>
+          </ThemeProvider>
         </StyletronProvider>
       </Container>
     )

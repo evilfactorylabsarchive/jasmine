@@ -3,22 +3,18 @@ import { Provider as StyletronProvider } from 'styletron-react'
 import { ThemeProvider } from 'baseui'
 import { styletron } from '../styletron'
 
-import Jasmine from '../themes'
-
 class MyDocument extends Document {
-  static getInitialProps (props) {
+  static getInitialProps(props) {
     const page = props.renderPage(App => props => (
       <StyletronProvider value={styletron}>
-        <ThemeProvider theme={Jasmine}>
-          <App {...props} />
-        </ThemeProvider>
+        <App {...props} />
       </StyletronProvider>
     ))
     const stylesheets = styletron.getStylesheets() || []
     return { ...page, stylesheets }
   }
 
-  render () {
+  render() {
     return (
       <html>
         <Head>
