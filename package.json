@@ -7,7 +7,7 @@
     "generate": "yarn build && yarn export -o dist"
   },
   "dependencies": {
-    "baseui": "6.15.1",
+    "baseui": "6.17.1",
     "next": "8.1.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
