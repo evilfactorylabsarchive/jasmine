@@ -1190,10 +1190,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@6.17.1:
-  version "6.17.1"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.17.1.tgz#40c4c309669adfc9c449b253dee02bc1bdb7c1f7"
-  integrity sha512-gnx4YSlS+idrf2hvyi3UkGtxt2KFjwdUeW+KaI1QuZKEC5CF/6gVMrdg8jCskh5melN31q+Qr66GBvlTO/mZfw==
+baseui@6.17.2:
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.17.2.tgz#4ce5c3192431d191ee2f0aaeb559a99ff541b35a"
+  integrity sha512-VQs/j8F46PVscuhYtPBYrfwnnFdF5Sy0KJAGLLQuxuHnshft4BLOeIUo110k8T74wynsRKoelykCKXOy9Abthw==
   dependencies:
     date-fns "2.0.0-alpha.27"
     focus-trap "^5.0.0"
