@@ -1,4 +1,6 @@
 {
+  "name": "@evilfactory/jasmine",
+  "version": "0.1.0-alpha",
   "license": "MIT",
   "scripts": {
     "dev": "next",
