@@ -1,4 +1,4 @@
-export const primitives = {
+const primitives = {
   // TODO: Fill me: https://baseweb.design/theming/theming-values/
   primaryFontFamily: '"Inter", system-ui, "Helvetica Neue", Arial, sans-serif',
 
@@ -12,3 +12,5 @@ export const primitives = {
     gray: '#DDDDDD'
   }
 }
+
+module.exports = { primitives }

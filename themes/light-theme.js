@@ -1,3 +1,7 @@
-import { primitives } from './light-theme-primitives.js'
+const { primitives } = require('./light-theme-primitives')
 
-export { primitives }
+// import { primitives } from './light-theme-primitives.js'
+
+module.exports = { primitives }
+
+// export { primitives }
