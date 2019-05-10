@@ -6,7 +6,8 @@
     "dev": "next",
     "export": "next export",
     "build": "next build",
-    "generate": "yarn build && yarn export -o dist"
+    "generate": "yarn build && yarn export -o dist",
+    "publish": "np"
   },
   "dependencies": {
     "baseui": "6.17.2",
@@ -15,5 +16,8 @@
     "react-dom": "16.8.6",
     "styletron-engine-atomic": "1.1.2",
     "styletron-react": "5.0.1"
+  },
+  "devDependencies": {
+    "np": "5.0.1"
   }
 }
