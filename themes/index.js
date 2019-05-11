@@ -1,5 +1,8 @@
-import { primitives } from './light-theme'
-import { createTheme, lightThemePrimitives } from 'baseui'
+const { primitives } = require('./light-theme')
+const { createTheme, lightThemePrimitives } = require('baseui')
+
+// import { primitives } from './light-theme'
+// import { createTheme, lightThemePrimitives } from 'baseui'
 
 // TODO: For now let's extend it from `lightThemePrimitives`
 
@@ -53,4 +56,6 @@ const Jasmine = createTheme({
   }
 })
 
-export default Jasmine
+module.exports = Jasmine
+
+// export default Jasmine
