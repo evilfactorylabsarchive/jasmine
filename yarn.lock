@@ -1282,10 +1282,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@6.17.2:
-  version "6.17.2"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.17.2.tgz#4ce5c3192431d191ee2f0aaeb559a99ff541b35a"
-  integrity sha512-VQs/j8F46PVscuhYtPBYrfwnnFdF5Sy0KJAGLLQuxuHnshft4BLOeIUo110k8T74wynsRKoelykCKXOy9Abthw==
+baseui@6.19.0:
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.19.0.tgz#9e6c9973f2934aa5fe43e5b9447f41e918c50469"
+  integrity sha512-h3aPDsDN2s3KLoRJ79HDAALv3eYSsc9ygFckgo43Ju0zWkM6/SpC+vJMTAL3AtHEQvkzrzvhfI67p3TkiLUFUg==
   dependencies:
     date-fns "2.0.0-alpha.27"
     focus-trap "^5.0.0"
@@ -1295,6 +1295,7 @@ baseui@6.17.2:
     popper.js "^1.14.3"
     react-dropzone "^9.0.0"
     react-input-mask "^2.0.4"
+    react-is "^16.8.6"
     react-movable "^2.0.1"
     react-range "^1.0.5"
     smoothscroll-polyfill "^0.4.3"
@@ -4684,7 +4685,7 @@ react-input-mask@^2.0.4:
     invariant "^2.2.4"
     warning "^4.0.2"
 
-react-is@16.8.6, react-is@^16.3.2, react-is@^16.8.1:
+react-is@16.8.6, react-is@^16.3.2, react-is@^16.8.1, react-is@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
