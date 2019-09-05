@@ -15,7 +15,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "styletron-engine-atomic": "1.1.2",
-    "styletron-react": "5.0.1"
+    "styletron-react": "5.2.1"
   },
   "devDependencies": {
     "np": "5.0.3"
