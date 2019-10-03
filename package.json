@@ -10,7 +10,7 @@
     "publish": "np"
   },
   "dependencies": {
-    "baseui": "6.20.1",
+    "baseui": "9.6.2",
     "next": "8.1.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
